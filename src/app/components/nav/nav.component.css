@@ -1,0 +1,15 @@
+.nav-section{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-container div{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.sanoma-nav-home-button{
+    margin-left: 2px;
+}

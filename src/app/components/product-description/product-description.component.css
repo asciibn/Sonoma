@@ -1,0 +1,41 @@
+.number-input{
+    width: 100px;
+    padding: 10px;
+}
+
+.collapsed-button-state{
+    background: url('../../../assets/images/arrow-collapsed.png') no-repeat top left;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+
+.collapsed-button-state:hover{
+    cursor: pointer;
+}
+
+.expand-button-state{
+    background: url('../../../assets/images/arrow-expanded.png') no-repeat top left;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+.expand-button-state:hover{
+    cursor: pointer;
+}
+
+
+.border-line{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.item-content-border{
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.section-copy{
+    height: 180px;
+    padding: 10px;
+}
+

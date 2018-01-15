@@ -1,0 +1,71 @@
+<section fxLayout="column" style="width:100%">
+  <h4>{{selectedTitle}}</h4>
+  <p>A generously sized apron is a nessessity in any kitchen, and our will brighten yours with lively color. 
+    Sewn of thick cotton, it can be personalized or monogrammed with up to nine characters, all the same hight, embroidered in your choice of color. 
+    An apron of this quality makes a welcome git for any cook.</p>
+
+    <ul>
+      <li>Duable 100% cotton construction.</li>
+      <li>Adjustable neckband ensures a good fit.</li>
+      <li>Rommy front pockedts hold small tools.</li>
+      <li>Machine-wash.</li>
+    </ul>
+
+    <h5>${{cost}}</h5>
+      
+    <form>
+        <input type="number" value='1' class="number-input">
+      <br><br>
+        <input type="image" alt="Add To Cart" src="assets/images/button-add-to-cart.png">
+    </form>
+
+    <section class="border-line">
+      <div>  
+              <div  (click)="isCollapsed = !isCollapsed"
+                      [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+               <span class="collapsed-button-state"></span> Expanded
+              </div>
+            
+            <div id="collapseExample" [ngbCollapse]="isCollapsed" class="item-content-border">
+              <div class="section-copy">       
+                  This section is extended. This section can be collasped by click on the "Expanded" text.
+                  This section is extended. This section can be collasped by click on the "Expanded" text.
+                  This section is extended. This section can be collasped by click on the "Expanded" text.
+                  This section is extended. This section can be collasped by click on the "Expanded" text.
+              </div>
+            </div>
+      </div>
+
+      <div>       
+          <div  (click)="isCollapsed2 = !isCollapsed2"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+          <span class="collapsed-button-state"></span> Expanded
+         </div>
+            
+         <div id="collapseExample" [ngbCollapse]="isCollapsed2" class="item-content-border">
+            <div class="section-copy">       
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+            </div>
+          </div>
+      </div>
+
+      <div>       
+          <div  (click)="isCollapsed3 = !isCollapsed3"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+          <span class="collapsed-button-state"></span> Expanded
+         </div>
+            
+         <div id="collapseExample" [ngbCollapse]="isCollapsed3" class="item-content-border">
+            <div class="section-copy">       
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+                This section is extended. This section can be collasped by click on the "Expanded" text.
+            </div>
+          </div>
+      </div>
+    </section>
+</section>

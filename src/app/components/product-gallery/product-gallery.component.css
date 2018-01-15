@@ -1,0 +1,22 @@
+.gallery-image-container{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+};
+
+
+.gallery-items{
+    margin:15px;
+}
+
+.item-state{
+    cursor: pointer ;
+}
+
+.item-state:hover{
+    cursor: pointer ;
+};
+
+.item-border{
+    border: 1px solid black;
+}
