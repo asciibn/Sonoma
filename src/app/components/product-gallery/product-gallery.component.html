@@ -1,8 +1,8 @@
 <section>
   <div class="gallery-image-container"  fxLayout="row" >
-      <div *ngFor='let item of imageArray; let i = index' style="margin:15px;" [attr.data-image-index]='i' class="item-state"
+      <div *ngFor='let item of imageArray; let i = index' style="margin:15px;" [attr.data-image-index]='i' 
       (click)="selectImage($event)" [ngClass]="{'item-border': selectedIndex == i}">
-          <img src='{{item}}' width="76" height="94">       
+          <img src='{{item}}' width="76" height="94" class="item-state">       
     </div>
   </div>
 </section>

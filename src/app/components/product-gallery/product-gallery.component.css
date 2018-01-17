@@ -9,6 +9,12 @@
     margin:15px;
 }
 
+
+
+.item-border{
+    border: 1px solid black;
+}
+
 .item-state{
     cursor: pointer ;
 }
@@ -16,7 +22,3 @@
 .item-state:hover{
     cursor: pointer ;
 };
-
-.item-border{
-    border: 1px solid black;
-}
