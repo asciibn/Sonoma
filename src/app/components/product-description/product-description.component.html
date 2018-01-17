@@ -11,12 +11,13 @@
       <li>Machine-wash.</li>
     </ul>
 
-    <h5>{{cost | currency:'USD':true }}</h5>
+    <h5>{{cost | currency:'USD':'true' }}</h5>
       
     <form>
         <input type="number" #counter value='1' class="number-input" (change)="onChange($event, counter.value)">
       <br><br>
-        <input type="image" alt="Add To Cart" (click)="onSubmit($event)" src="assets/images/button-add-to-cart.png">
+        <input type="image" alt="Add To Cart" (click)="onSubmit($event)" src="assets/images/button-add-to-cart.png"
+        ngbPopover="{{selectedTitle}} has been added to cart." popoverTitle="{{selectedTitle}} added to Cart">
     </form>
     <br>
     <section class="border-line">
