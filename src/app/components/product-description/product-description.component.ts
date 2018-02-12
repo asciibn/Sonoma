@@ -89,15 +89,15 @@ export class ProductDescriptionComponent implements OnInit {
       switch (section) {
         case 'isCollapsed' :
         return this.isCollapsed = !this.isCollapsed;
-        break;
+     
 
         case 'isCollapsed2' :
         return this.isCollapsed2 = !this.isCollapsed2;
-        break;
+      
 
         case 'isCollapsed3' :
         return this.isCollapsed3 = !this.isCollapsed3;
-        break;
+     
       }
 
     }
